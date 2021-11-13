@@ -1,0 +1,118 @@
+body{background-image: white;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 250px; 
+}
+
+#titulo{text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+    0%{
+        color: white;
+        opacity: 0.75;
+    }
+    25%{
+        color: #800000;
+        opacity: 1;
+    }
+    50%{
+        color: #ff3300;
+        opacity: 0.50;
+    }
+    75%{
+        color: #ffc400;
+        opacity: 1;
+    }
+}
+
+.subtitulo{text-align: justify;
+    font-family: 'Staatliches', cursive;
+    color: #ff3300;
+    margin-left: 25px;
+    font-size: xxx-large;
+}
+
+.subtitulo2{text-align: center;
+    font-family: Arial;
+    color: #ff3300;
+    font-size: x-large;
+}
+
+header{background-color: #800000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+    z-index: 1;
+}
+
+img{width: 500px;
+    margin-left: 30%;
+}
+
+#comuns{text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#especiais{text-align: justify;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid #800000;
+    padding: 10px;
+}
+
+.notícia{text-align: justify;
+    font-size: small;
+    padding: 10px;
+    border: 3px solid #800000;
+}
+
+.nome{text-align: justify;
+    font-size: xx-large;
+    padding: 15px;
+    word-spacing: 1px;
+}
+
+#video{margin-left: 30%;
+}    
+
+footer{background-color: #800000;
+    width: 100%;
+    margin: 0px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+nav ul{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li{list-style: none;
+    border: white 3px solid;
+    padding: 5px;
+}
+
+nav ul li:hover{color: whitesmoke; 
+    opacity: 0.8;
+    background-color: gray;
+}
+
+nav ul a{text-decoration: none;
+    color: white;
+}
+
+nav ul a:visited{color: white; 
+}
